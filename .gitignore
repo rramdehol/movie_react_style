@@ -3,6 +3,9 @@
 # dependencies
 node_modules
 
+#Config File 
+src/Config.js
+
 # testing
 coverage
 

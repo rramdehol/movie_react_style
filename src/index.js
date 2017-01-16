@@ -13,8 +13,8 @@ import './index.css';
 ReactDOM.render(
   <Router history={hashHistory}>
   	<Route path="/" component={App}>
-  		<IndexRoute path="/" component={Home}/>
-  		<Route path="/movie/:id" component={SingleMovie}/>
+  		<IndexRoute component={Home}/>
+  		<Route path="movie/:id" component={SingleMovie}/>
   	</Route>
   </Router>,
   document.getElementById('root')
